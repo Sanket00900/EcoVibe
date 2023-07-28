@@ -1,0 +1,71 @@
+{
+    "renewableEnergySources": [
+      {
+        "title": "Solar Energy",
+        "description": "Solar energy harnesses the power of the sun to generate electricity through photovoltaic (PV) panels.",
+        "imageUrl": "assets/sources/solar.jpg",
+        "route":"SolarEnergy"
+      },
+      {
+        "title": "Wind Energy",
+        "description": "Wind turbines capture the kinetic energy of the wind and convert it into electricity.",
+        "imageUrl": "assets/sources/wind.jpg",
+        "route":"WindEnergy"
+      },
+      {
+        "title": "Hydropower",
+        "description": "Hydropower utilizes the energy of flowing or falling water to generate electricity.",
+        "imageUrl": "assets/sources/hydropower.jpg",
+        "route":"Hydropower"
+      },
+      {
+        "title": "Geothermal Energy",
+        "description": "Geothermal energy utilizes the heat from the Earth's core to generate electricity or heat buildings.",
+        "imageUrl": "assets/sources/geothermal.jpg",
+        "route":"Geothermal"
+      },
+      {
+        "title": "Biomass Energy",
+        "description": "Biomass energy is derived from organic materials, such as plant matter, agricultural residues, and wood.",
+        "imageUrl": "assets/sources/biomass.jpg",
+        "route":"Biomass"
+      },
+      {
+        "title": "Wave Energy",
+        "description": "Wave energy converts the motion of ocean waves into electricity.",
+        "imageUrl": "assets/sources/wave.jpg",
+        "route":"WaveEnergy"
+      }
+    ],
+    "tools": [
+      {
+        "title": "Energy Consumption Calculator",
+        "description": "Calculate your household or business energy consumption to identify usage patterns and save energy.",
+        "imageUrl": "assets/tools/energy-consumption-calculator.jpg",
+        "componentType" : "Tools",
+        "route":"EnergyConsumptionCalculator"
+      },
+      {
+        "title": "Carbon Footprint Calculator",
+        "description": "Measure your carbon footprint based on lifestyle choices and get tips for reducing emissions.",
+        "imageUrl": "assets/tools/carbon-footprint-calculator.jpg",
+        "componentType" : "Tools",
+        "route":"CarbonFootprintCalculator"
+      },
+      {
+        "title": "Solar Panel Cost Estimator",
+        "description": "Estimate the cost and potential savings of installing solar panels on your rooftop.",
+        "imageUrl": "assets/tools/solar-panel-costing.jpg",
+        "componentType" : "Tools",
+        "route":"SolarPanelCostEstimator"
+      },
+      {
+        "title": "Electric Vehicle Savings Calculator",
+        "description": "Compare the costs and savings of owning an electric vehicle versus a gasoline vehicle.",
+        "imageUrl": "assets/tools/electric-vehicle-costing.jpg",
+        "componentType" : "Tools",
+        "route":"ElectricVehicleSavingsCalculator"
+      }
+    ]
+  }
+  
