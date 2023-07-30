@@ -5,8 +5,7 @@ import HorizontalCard from "../components/HorizontalCard";
 
 const News = () => {
   const [newsArticles, setNewsArticles] = useState([]);
-  // const apiKey = process.env.REACT_APP_NEWS_API_KEY;
-  const apiKey = "fe430521d15a46f69d3070d4d6d1693d";
+  const apiKey = import.meta.env.VITE_NEWS_API_KEY;
 
   useEffect(() => {
     const fetchRenewableEnergyNews = async () => {
