@@ -9,6 +9,7 @@ export default {
       xl: "1440px",
     },
     colors: {
+      blackest: "#000000",
       "blue-300": "#93c5fd",
       "blue-400": "#1fb6ff",
       "blue-700": "#1d4ed8",
@@ -124,8 +125,11 @@ export default {
     },
     extend: {
       spacing: {
+        72: "18rem",
         128: "32rem",
         144: "36rem",
+        156: "40rem",
+        300: "75rem",
       },
       borderRadius: {
         "4xl": "2rem",
