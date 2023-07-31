@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Card = ({ title, description, imageUrl, componentType, route }) => {
   return (
     <>
-      <div className="max-w-sm bg-card-bg border border-gray rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div className="max-w-sm bg-card-bg border border-gray rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transform  transition duration-500 hover:scale-105 hover:bg-bg">
         <a href="#">
           <img className="rounded-t-lg" src={imageUrl} alt="" />
         </a>
