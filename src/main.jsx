@@ -10,6 +10,8 @@ import Locations from "./routes/Locations.jsx";
 import News from "./routes/News.jsx";
 import Tools from "./routes/Tools.jsx";
 import About from "./routes/About.jsx";
+import energySourcesData from "./data.json";
+import Details from "./components/Details";
 
 const router = createBrowserRouter([
   {
@@ -21,13 +23,14 @@ const router = createBrowserRouter([
   {
     name: "Guide",
     path: "/guide",
-    element: <Guide />,
+    element: <Guide data={energySourcesData} />,
   },
   {
     name: "Details",
     path: "/guide/:id",
-    element: <Details />,
+    element: <Details data={energySourcesData} />,
   },
+
   {
     name: "News",
     path: "/news",
