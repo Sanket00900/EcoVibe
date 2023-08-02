@@ -10,16 +10,17 @@ const Map = () => {
   const [lat, setLat] = useState(18.526551794097287);
   const [lng, setLng] = useState(73.84751349320722);
 
-  const [zoom, setZoom] = useState(9);
+  const [zoom, setZoom] = useState(8);
 
   useEffect(() => {
-    if (map.current) return; // initialize map only once
+    if (map.current) return;
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
       style: "mapbox://styles/sanket00900/clkpqbgr3007301o8faxo8s38",
       center: [lng, lat],
       zoom: zoom,
     });
+
     map.current.on("move", () => {
       setLng(map.current.getCenter().lng.toFixed(4));
       setLat(map.current.getCenter().lat.toFixed(4));
