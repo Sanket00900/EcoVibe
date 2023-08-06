@@ -1,10 +1,10 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
-const Card = ({ title, description, imageUrl, componentType, route }) => {
+const Card = ({ title, description, imageUrl, componentType }) => {
   return (
     <>
-      <div className="max-w-sm bg-card-bg border border-gray rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transform  transition duration-500 hover:scale-105 hover:bg-bg">
+      <div className="max-w-sm bg-card-bg border p-4 border-gray rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transform  transition duration-500 hover:scale-105 hover:bg-bg">
         <div href="#">
           <img className="rounded-t-lg" src={imageUrl} alt="" />
         </div>

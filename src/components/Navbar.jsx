@@ -20,6 +20,12 @@ const Navbar = () => {
           <Link to={`/news`}>News</Link>
         </div>
         <div className="transform transition duration-200 hover:scale-105">
+          <Link to={`/policies`}>Policies</Link>
+        </div>
+        <div className="transform transition duration-200 hover:scale-105">
+          <Link to={`/feedback`}>Feedback</Link>
+        </div>
+        <div className="transform transition duration-200 hover:scale-105">
           <Link to={`/about`}>About Us</Link>
         </div>
       </div>
