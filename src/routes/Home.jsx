@@ -1,26 +1,51 @@
-// import React from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
+import Carousel from "../components/Carousel";
+import { CSSTransition } from "react-transition-group";
+import "../styles/AnimationStyles.css";
 
 const Home = () => {
+  const [showAnimation, setShowAnimation] = useState(false);
+
+  useEffect(() => {
+    setShowAnimation(true);
+  });
   return (
     <>
-      <div className="bg-bg min-h-screen">
+      <div className="text-center bg-[url('./assets/bg/hero-bg.jpg')] bg-cover bg-no-repeat min-h-screen">
         <Navbar />
-        <h1 className="text-green text-3xl text-center font-poppins">
-          EcoVibe
-        </h1>
-
-        <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-500">
-            Better Data
-          </span>{" "}
-          Scalable AI.
-        </h1>
-        <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
-          Here at Flowbite we focus on markets where technology, innovation, and
-          capital can unlock long-term value and drive economic growth.
-        </p>
+        <CSSTransition
+          in={showAnimation}
+          timeout={500}
+          classNames="zoom-in"
+          unmountOnExit
+        >
+          <div>
+            <h1 className="text-green mt-16 mb-8 text-8xl font-bold">
+              ECOVIBE
+            </h1>
+            <h1 className="text-transparent text-5xl font-extrabold text-white bg-clip-text bg-gradient-to-r from-blue-400 to-green-500 uppercase text-underline">
+              Navigating the Path to Sustainable & Clean Energy
+            </h1>{" "}
+            <br />
+            <button
+              type="button"
+              class="text-white bg-gradient-to-br from-forestgreen to-blue-400 m-4 p-8 uppercase font-semibold hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-lime rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+            >
+              <a href="/guide">Enter into the portal</a>
+            </button>
+          </div>
+        </CSSTransition>
       </div>
+
+      <CSSTransition
+        in={showAnimation}
+        timeout={500}
+        classNames="slide-in"
+        unmountOnExit
+      >
+        <Carousel />
+      </CSSTransition>
     </>
   );
 };
