@@ -124,9 +124,9 @@ export default {
       poppins: ["Poppins", "sans-serif"],
     },
     extend: {
-      backgroundImage: {
-        "hero-bg": "url('../assets/bg/hero-bg.jpg')",
-      },
+      backgroundImage: (theme) => ({
+        "hero-bg": "url('./assets/bg/hero-bg.jpg')",
+      }),
       spacing: {
         72: "18rem",
         100: "25rem",
@@ -140,7 +140,7 @@ export default {
         "4xl": "2rem",
       },
       backgroundImage: {
-        guide: "url('../assets/guide-bg.jpg')",
+        guide: "url('./assets/bg/hero-bg.jpg')",
       },
     },
   },

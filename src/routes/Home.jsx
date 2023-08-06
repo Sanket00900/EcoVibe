@@ -12,7 +12,7 @@ const Home = () => {
   });
   return (
     <>
-      <div className="text-center bg-[url('./assets/bg/hero-bg.jpg')] bg-cover bg-no-repeat min-h-screen">
+      <div className="text-center bg-[url(./assets/bg/hero-bg.jpg)] bg-cover bg-no-repeat min-h-screen">
         <Navbar />
         <CSSTransition
           in={showAnimation}
@@ -30,7 +30,7 @@ const Home = () => {
             <br />
             <button
               type="button"
-              class="text-white bg-gradient-to-br from-forestgreen to-blue-400 m-4 p-8 uppercase font-semibold hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-lime rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+              className="text-white bg-gradient-to-br from-forestgreen to-blue-400 m-4 p-8 uppercase font-semibold hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-lime rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
             >
               <a href="/guide">Enter into the portal</a>
             </button>
