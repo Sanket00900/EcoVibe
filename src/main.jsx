@@ -12,6 +12,8 @@ import Tools from "./routes/Tools.jsx";
 import About from "./routes/About.jsx";
 import energySourcesData from "./data.json";
 import Details from "./components/Details";
+import Feedback from "./routes/Feedback";
+import Policies from "./routes/Policies";
 
 const router = createBrowserRouter([
   {
@@ -30,7 +32,6 @@ const router = createBrowserRouter([
     path: "/guide/:id",
     element: <Details data={energySourcesData} />,
   },
-
   {
     name: "News",
     path: "/news",
@@ -44,12 +45,22 @@ const router = createBrowserRouter([
   {
     name: "About",
     path: "/about",
-    element: <About />,
+    element: <About data={energySourcesData} />,
   },
   {
     name: "Tools",
     path: "/tools",
     element: <Tools />,
+  },
+  {
+    name: "Policies",
+    path: "/policies",
+    element: <Policies data={energySourcesData} />,
+  },
+  {
+    name: "Feedback",
+    path: "/feedback",
+    element: <Feedback />,
   },
 ]);
 

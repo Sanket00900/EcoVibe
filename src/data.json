@@ -1,118 +1,162 @@
-{
-    "renewableEnergySources": [
-      {
-        "title": "Solar Energy",
-        "description": "Solar energy harnesses the power of the sun to generate electricity through photovoltaic (PV) panels.",
-        "imageUrl": "assets/sources/solar.jpg",
-        "route":"SolarEnergy"
-      },
-      {
-        "title": "Wind Energy",
-        "description": "Wind turbines capture the kinetic energy of the wind and convert it into electricity.",
-        "imageUrl": "assets/sources/wind.jpg",
-        "route":"WindEnergy"
-      },
-      {
-        "title": "Hydropower",
-        "description": "Hydropower utilizes the energy of flowing or falling water to generate electricity.",
-        "imageUrl": "assets/sources/hydropower.jpg",
-        "route":"Hydropower"
-      },
-      {
-        "title": "Geothermal Energy",
-        "description": "Geothermal energy utilizes the heat from the Earth's core to generate electricity or heat buildings.",
-        "imageUrl": "assets/sources/geothermal.jpg",
-        "route":"Geothermal"
-      },
-      {
-        "title": "Biomass Energy",
-        "description": "Biomass energy is derived from organic materials, such as plant matter, agricultural residues, and wood.",
-        "imageUrl": "assets/sources/biomass.jpg",
-        "route":"Biomass"
-      },
-      {
-        "title": "Wave Energy",
-        "description": "Wave energy converts the motion of ocean waves into electricity.",
-        "imageUrl": "assets/sources/wave.jpg",
-        "route":"WaveEnergy"
-      }
-    ],
-    "tools": [
-      {
-        "title": "Energy Consumption Calculator",
-        "description": "Calculate your household or business energy consumption to identify usage patterns and save energy.",
-        "imageUrl": "assets/tools/energy-consumption-calculator.jpg",
-        "componentType" : "Tools",
-        "route":"EnergyConsumptionCalculator"
-      },
-      {
-        "title": "Carbon Footprint Calculator",
-        "description": "Measure your carbon footprint based on lifestyle choices and get tips for reducing emissions.",
-        "imageUrl": "assets/tools/carbon-footprint-calculator.jpg",
-        "componentType" : "Tools",
-        "route":"CarbonFootprintCalculator"
-      },
-      {
-        "title": "Solar Panel Cost Estimator",
-        "description": "Estimate the cost and potential savings of installing solar panels on your rooftop.",
-        "imageUrl": "assets/tools/solar-panel-costing.jpg",
-        "componentType" : "Tools",
-        "route":"SolarPanelCostEstimator"
-      },
-      {
-        "title": "Electric Vehicle Savings Calculator",
-        "description": "Compare the costs and savings of owning an electric vehicle versus a gasoline vehicle.",
-        "imageUrl": "assets/tools/electric-vehicle-costing.jpg",
-        "componentType" : "Tools",
-        "route":"ElectricVehicleSavingsCalculator"
-      }
-    ],
-    "energySourcesDetails" : [
-      {
-        "title": "Solar Energy",
-        "imageUrl": "/assets/sources/solar.jpg",
-        "description": "Solar energy is harnessed from the sun's rays using photovoltaic cells or solar thermal technology. Photovoltaic cells convert sunlight directly into electricity, while solar thermal technology uses sunlight to heat a fluid and generate electricity. Solar energy is clean, renewable, and abundant, making it a popular choice for generating electricity and heating water for residential and commercial purposes.",
-        "sections": [
-          {
-            "title": "Introduction to Solar Energy",
-            "content": "Solar energy is a type of renewable energy that comes from the sun. It is a clean and sustainable source of power, as it does not emit harmful greenhouse gases or other pollutants during electricity generation."
-          },
-          {
-            "title": "How Solar Energy Works",
-            "content": "Solar energy can be harnessed through two main technologies. Photovoltaic (PV) cells, commonly known as solar panels, convert sunlight directly into electricity through the photovoltaic effect. Solar thermal systems, on the other hand, use mirrors or lenses to concentrate sunlight and heat a fluid that drives a turbine to produce electricity."
-          },
-          {
-            "title": "Types of Solar Energy Technologies",
-            "content": "Solar energy technologies can be categorized into two major types: photovoltaic (PV) systems and solar thermal systems. Within PV systems, there are various types of solar cells, such as monocrystalline, polycrystalline, and thin-film solar cells."
-          },
-          {
-            "title": "Advantages and Benefits of Solar Energy",
-            "content": "Solar energy has numerous advantages, including being abundant, renewable, and inexhaustible. It can reduce electricity bills, decrease dependence on fossil fuels, and contribute to a cleaner environment by reducing greenhouse gas emissions."
-          },
-          {
-            "title": "Challenges and Limitations of Solar Energy",
-            "content": "Despite its advantages, solar energy faces some challenges, such as intermittency (depending on weather and time of day), high initial costs, and land use considerations for large-scale solar installations."
-          },
-          {
-            "title": "Applications of Solar Energy",
-            "content": "Solar energy is used in various applications, including residential and commercial power generation, solar water heaters, solar-powered vehicles, and portable solar chargers for electronic devices."
-          },
-          {
-            "title": "Solar Energy in Residential and Commercial Settings",
-            "content": "Residential and commercial solar installations are becoming increasingly popular, with homeowners and businesses investing in rooftop solar panels to generate electricity and save on energy costs."
-          },
-          {
-            "title": "Solar Energy in Power Plants and Grid Integration",
-            "content": "Utility-scale solar power plants contribute significantly to electricity generation in some regions. Solar power can be integrated into the electricity grid, and advancements in energy storage technology are addressing solar energy's intermittency issue."
-          },
-          {
-            "title": "Future Prospects and Innovations in Solar Energy",
-            "content": "Ongoing research and development are leading to innovative advancements in solar energy technology, such as next-generation solar cells, transparent solar panels, and solar paint."
-          }
-          
-        ]
-      },
-      {         "title": "Wind Energy",
+{ "about":[
+  {
+    "title":"TARGET",
+    "description":"To be the go-to platform for individuals, businesses, and policymakers seeking comprehensive and user-friendly information and solutions in the renewable energy sector. Our target audience includes environmentally conscious individuals, renewable energy enthusiasts, industry professionals, clean energy companies, and policymakers.",
+    "imageUrl":"assets/about/2.jpg"
+  },
+  {
+    "title":"MISSION",
+    "description":"Our mission is to accelerate the global transition to clean,renewable energy by providing a user-friendly and all-encompassing platform. We aim to empower users with knowledge, insights, and resources to make informed decisions, embrace sustainable practices,and actively contribute to achieving UN Sustainable Development Goal Affordable and Clean Energy.",
+    "imageUrl":"assets/about/3.jpg"
+  },
+  {
+    "title":"VISION",
+    "description":" Our vision is to create a world where clean, renewable energy is readily accessible, adopted widely, and plays a significant role in powering a sustainable future. We envision a global community empowered with the knowledge and tools to harness renewable energy sources efficiently, reducing reliance on fossil fuels, and making positive contributions to the environment and society at large.Through our platform.",
+    "imageUrl":"assets/about/4.jpg"
+  }
+],
+
+  "features": [
+    {
+      "title": "Guides",
+      "link": "/guide",
+      "imageUrl": "/assets/features/guide.jpg"
+    },
+    {
+      "title": "Tools",
+      "link": "/tools",
+      "imageUrl": "/assets/features/tools.jpg"
+    },
+    {
+      "title": "Policies",
+      "link": "/policies",
+      "imageUrl": "/assets/features/policies.jpg"
+    },
+    {
+      "title": "Locations",
+      "link": "/locations",
+      "imageUrl": "/assets/features/locations.jpg"
+    },
+    {
+      "title": "News",
+      "link": "/news",
+      "imageUrl": "/assets/features/news.jpg"
+    }
+  ],
+  "renewableEnergySources": [
+    {
+      "title": "Solar Energy",
+      "description": "Solar energy harnesses the power of the sun to generate electricity through photovoltaic (PV) panels.",
+      "imageUrl": "assets/sources/solar.jpg",
+      "route": "SolarEnergy"
+    },
+    {
+      "title": "Wind Energy",
+      "description": "Wind turbines capture the kinetic energy of the wind and convert it into electricity.",
+      "imageUrl": "assets/sources/wind.jpg",
+      "route": "WindEnergy"
+    },
+    {
+      "title": "Hydropower",
+      "description": "Hydropower utilizes the energy of flowing or falling water to generate electricity.",
+      "imageUrl": "assets/sources/hydropower.jpg",
+      "route": "Hydropower"
+    },
+    {
+      "title": "Geothermal Energy",
+      "description": "Geothermal energy utilizes the heat from the Earth's core to generate electricity or heat buildings.",
+      "imageUrl": "assets/sources/geothermal.jpg",
+      "route": "Geothermal"
+    },
+    {
+      "title": "Biomass Energy",
+      "description": "Biomass energy is derived from organic materials, such as plant matter, agricultural residues, and wood.",
+      "imageUrl": "assets/sources/biomass.jpg",
+      "route": "Biomass"
+    },
+    {
+      "title": "Wave Energy",
+      "description": "Wave energy converts the motion of ocean waves into electricity.",
+      "imageUrl": "assets/sources/wave.jpg",
+      "route": "WaveEnergy"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Energy Consumption Calculator",
+      "description": "Calculate your household or business energy consumption to identify usage patterns and save energy.",
+      "imageUrl": "assets/tools/energy-consumption-calculator.jpg",
+      "componentType": "Tools",
+      "route": "EnergyConsumptionCalculator"
+    },
+    {
+      "title": "Carbon Footprint Calculator",
+      "description": "Measure your carbon footprint based on lifestyle choices and get tips for reducing emissions.",
+      "imageUrl": "assets/tools/carbon-footprint-calculator.jpg",
+      "componentType": "Tools",
+      "route": "CarbonFootprintCalculator"
+    },
+    {
+      "title": "Solar Panel Cost Estimator",
+      "description": "Estimate the cost and potential savings of installing solar panels on your rooftop.",
+      "imageUrl": "assets/tools/solar-panel-costing.jpg",
+      "componentType": "Tools",
+      "route": "SolarPanelCostEstimator"
+    },
+    {
+      "title": "Electric Vehicle Savings Calculator",
+      "description": "Compare the costs and savings of owning an electric vehicle versus a gasoline vehicle.",
+      "imageUrl": "assets/tools/electric-vehicle-costing.jpg",
+      "componentType": "Tools",
+      "route": "ElectricVehicleSavingsCalculator"
+    }
+  ],
+  "energySourcesDetails": [
+    {
+      "title": "Solar Energy",
+      "imageUrl": "/assets/sources/solar.jpg",
+      "description": "Solar energy is harnessed from the sun's rays using photovoltaic cells or solar thermal technology. Photovoltaic cells convert sunlight directly into electricity, while solar thermal technology uses sunlight to heat a fluid and generate electricity. Solar energy is clean, renewable, and abundant, making it a popular choice for generating electricity and heating water for residential and commercial purposes.",
+      "sections": [
+        {
+          "title": "Introduction to Solar Energy",
+          "content": "Solar energy is a type of renewable energy that comes from the sun. It is a clean and sustainable source of power, as it does not emit harmful greenhouse gases or other pollutants during electricity generation."
+        },
+        {
+          "title": "How Solar Energy Works",
+          "content": "Solar energy can be harnessed through two main technologies. Photovoltaic (PV) cells, commonly known as solar panels, convert sunlight directly into electricity through the photovoltaic effect. Solar thermal systems, on the other hand, use mirrors or lenses to concentrate sunlight and heat a fluid that drives a turbine to produce electricity."
+        },
+        {
+          "title": "Types of Solar Energy Technologies",
+          "content": "Solar energy technologies can be categorized into two major types: photovoltaic (PV) systems and solar thermal systems. Within PV systems, there are various types of solar cells, such as monocrystalline, polycrystalline, and thin-film solar cells."
+        },
+        {
+          "title": "Advantages and Benefits of Solar Energy",
+          "content": "Solar energy has numerous advantages, including being abundant, renewable, and inexhaustible. It can reduce electricity bills, decrease dependence on fossil fuels, and contribute to a cleaner environment by reducing greenhouse gas emissions."
+        },
+        {
+          "title": "Challenges and Limitations of Solar Energy",
+          "content": "Despite its advantages, solar energy faces some challenges, such as intermittency (depending on weather and time of day), high initial costs, and land use considerations for large-scale solar installations."
+        },
+        {
+          "title": "Applications of Solar Energy",
+          "content": "Solar energy is used in various applications, including residential and commercial power generation, solar water heaters, solar-powered vehicles, and portable solar chargers for electronic devices."
+        },
+        {
+          "title": "Solar Energy in Residential and Commercial Settings",
+          "content": "Residential and commercial solar installations are becoming increasingly popular, with homeowners and businesses investing in rooftop solar panels to generate electricity and save on energy costs."
+        },
+        {
+          "title": "Solar Energy in Power Plants and Grid Integration",
+          "content": "Utility-scale solar power plants contribute significantly to electricity generation in some regions. Solar power can be integrated into the electricity grid, and advancements in energy storage technology are addressing solar energy's intermittency issue."
+        },
+        {
+          "title": "Future Prospects and Innovations in Solar Energy",
+          "content": "Ongoing research and development are leading to innovative advancements in solar energy technology, such as next-generation solar cells, transparent solar panels, and solar paint."
+        }
+      ]
+    },
+    {
+      "title": "Wind Energy",
       "imageUrl": "/assets/sources/wind.jpg",
       "description": "Wind energy is generated by harnessing the kinetic energy of moving air through wind turbines. These turbines convert the wind's rotational energy into electricity. Wind power is a sustainable and emissions-free energy source, making it an essential part of the renewable energy mix. Wind farms are often installed in windy regions and offshore locations to maximize electricity generation.",
       "sections": [
@@ -156,191 +200,229 @@
           "title": "Future Potential and Advances in Wind Energy",
           "content": "Advancements in wind turbine technology, including larger and more efficient turbines, are expanding the potential of wind energy. Research and development efforts are focusing on improving reliability, reducing costs, and exploring innovative concepts like airborne wind energy."
         }
-      ]},
-      {
-        "title": "Hydropower",
-        "imageUrl": "/assets/sources/hydropower.jpg",
-        "description": "Hydropower, also known as hydroelectric power, is derived from the energy of flowing or falling water. It is one of the oldest renewable energy sources used to generate electricity. Hydropower plants use dams and reservoirs to store water, and as water is released from higher levels to lower levels, it spins turbines, which, in turn, produce electricity. Hydropower is a reliable and eco-friendly energy source with low greenhouse gas emissions.",
-        "sections": [
-          {
-            "title": "Introduction to Hydropower",
-            "content": "Hydropower is a renewable energy source that harnesses the gravitational potential energy of water to produce electricity. It has been used for centuries, and modern hydropower plants play a significant role in global electricity generation."
-          },
-          {
-            "title": "Types of Hydropower Plants and Technologies",
-            "content": "Hydropower plants can be classified into different types based on their design and operation, such as conventional hydropower, pumped storage hydropower, and run-of-river hydropower."
-          },
-          {
-            "title": "Pros and Cons of Hydropower Energy",
-            "content": "Hydropower offers several advantages, including its ability to produce large amounts of electricity, provide flood control, and serve as a reliable baseload power source. However, concerns related to environmental impact, habitat disruption, and social implications must be considered."
-          },
-          {
-            "title": "Environmental Impact and Fish Migration",
-            "content": "Hydropower projects can impact aquatic ecosystems and fish migration patterns. Fish passages and other mitigation measures are implemented to reduce the impact on fish populations."
-          },
-          {
-            "title": "Pumped Storage Hydropower for Energy Storage",
-            "content": "Pumped storage hydropower is a form of energy storage that involves pumping water to an elevated reservoir during periods of low electricity demand and releasing it to generate electricity during peak demand."
-          },
-          {
-            "title": "Run-of-River and Small-Scale Hydropower Projects",
-            "content": "Run-of-river hydropower plants operate without large reservoirs, and small-scale hydropower projects can be implemented in remote areas to provide clean energy to local communities."
-          },
-          {
-            "title": "Hydropower and Water Management",
-            "content": "Hydropower projects play a role in water resource management, providing benefits such as flood control, irrigation, and water supply for various purposes."
-          },
-          {
-            "title": "Global Distribution and Contribution of Hydropower",
-            "content": "Hydropower is one of the largest sources of renewable electricity worldwide. Several countries heavily rely on hydropower for their electricity needs."
-          },
-          {
-            "title": "Challenges and Future Developments in Hydropower",
-            "content": "Despite its benefits, hydropower faces challenges such as environmental concerns, aging infrastructure, and potential impacts of climate change. Advances in technology and policies can address these challenges and enhance the sustainability of hydropower."
-          }
-        ]
-      },
-      {
-        "title": "Geothermal Energy",
-        "imageUrl": "/assets/sources/geothermal.jpg",
-        "description": "Geothermal energy is obtained from the heat generated within the Earth's crust. It involves harnessing hot water and steam from geothermal reservoirs underground to produce electricity through geothermal power plants. Geothermal energy is a reliable and sustainable energy source, as it produces minimal greenhouse gas emissions and has a small land footprint compared to other renewable energy sources.",
-        "sections": [
-          {
-            "title": "Introduction to Geothermal Energy",
-            "content": "Geothermal energy is a renewable energy source that harnesses the heat from within the Earth's crust. It is generated by natural processes and human-induced methods like Enhanced Geothermal Systems (EGS)."
-          },
-          {
-            "title": "Types of Geothermal Resources and Technologies",
-            "content": "Geothermal energy can be accessed through various types of resources, such as hydrothermal reservoirs, geopressured reservoirs, and hot dry rock. Geothermal power plants are designed based on the specific geothermal resource."
-          },
-          {
-            "title": "Geothermal Power Generation and Plant Types",
-            "content": "Geothermal power plants are classified into different types based on their design and technology, including dry steam, flash steam, and binary cycle plants. Each type utilizes different geothermal resources and operational methods."
-          },
-          {
-            "title": "Benefits and Advantages of Geothermal Energy",
-            "content": "Geothermal energy offers several advantages, including its sustainability, low carbon footprint, and continuous availability. Geothermal power plants have high capacity factors and provide reliable baseload electricity."
-          },
-          {
-            "title": "Geothermal Energy for Direct Use Applications",
-            "content": "In addition to electricity generation, geothermal energy is used directly for various applications, such as heating buildings, greenhouses, and spas, as well as for industrial processes like food drying and aquaculture."
-          },
-          {
-            "title": "Environmental Considerations and Emission Reduction",
-            "content": "Geothermal energy has minimal environmental impact compared to fossil fuel-based power generation. Its use can contribute to reducing greenhouse gas emissions and mitigating climate change."
-          },
-          {
-            "title": "Geothermal Energy Exploration and Resource Assessment",
-            "content": "The exploration and assessment of geothermal resources involve geophysical surveys, drilling, and testing to determine the potential for commercial-scale geothermal power production."
-          },
-          {
-            "title": "Geothermal Energy and Regional Development",
-            "content": "Geothermal energy can foster regional development and energy independence, particularly in areas with significant geothermal resources. It can create jobs and stimulate local economies."
-          },
-          {
-            "title": "Global Outlook and Challenges in Geothermal Energy",
-            "content": "Geothermal energy has enormous untapped potential worldwide. However, challenges such as resource availability, high upfront costs, and subsurface risks need to be addressed to further its adoption."
-          },
-          {
-            "title": "Innovations and Future Prospects for Geothermal Energy",
-            "content": "Ongoing research and technological advancements are exploring enhanced geothermal systems, co-production with oil and gas, and hybrid applications to unlock additional opportunities for geothermal energy."
-          }
-        ]
-      },
-      {
-        "title": "Wave Energy",
-        "imageUrl": "/assets/sources/wave.jpg",
-        "description": "Wave energy is derived from the motion of ocean waves. Devices known as wave energy converters (WECs) capture the kinetic energy of the waves and convert it into electricity. Wave energy has enormous potential as a renewable resource due to the vast energy available in oceans worldwide. However, the technology is still in its early stages of development.",
-        "sections": [
-          {
-            "title": "Introduction to Wave Energy",
-            "content": "Wave energy is a form of renewable energy that comes from the movement of ocean waves. It is a promising technology with the potential to provide a significant amount of clean electricity."
-          },
-          {
-            "title": "Wave Energy Conversion Technologies",
-            "content": "Various wave energy conversion technologies are under development, including point absorbers, oscillating water columns, attenuators, and overtopping devices. Each technology aims to capture wave energy and convert it into usable electricity."
-          },
-          {
-            "title": "Challenges in Harnessing Wave Energy",
-            "content": "Wave energy faces several challenges, including the harsh marine environment, the variability of wave patterns, and the high costs associated with developing and deploying wave energy devices."
-          },
-          {
-            "title": "Environmental Impact and Marine Life",
-            "content": "Wave energy projects should consider potential environmental impacts, such as noise pollution and the alteration of coastal ecosystems. Proper environmental assessments and monitoring are essential in mitigating adverse effects."
-          },
-          {
-            "title": "Wave Energy Projects and Demonstrations",
-            "content": "Wave energy devices are being tested and demonstrated in various locations worldwide to assess their technical performance and commercial viability. Pilot projects are crucial in advancing the state of wave energy technology."
-          },
-          {
-            "title": "Wave Energy Potential and Global Distribution",
-            "content": "The global potential for wave energy is significant, especially in regions with strong and consistent wave patterns, such as coastal areas with high wind exposure and open-ocean sites."
-          },
-          {
-            "title": "Integration of Wave Energy into the Grid",
-            "content": "Wave energy integration into the electricity grid requires careful planning and coordination. Energy storage systems and smart grid technologies can enhance the reliability and stability of wave energy systems."
-          },
-          {
-            "title": "Wave Energy and Renewable Energy Mix",
-            "content": "Wave energy has the potential to complement other renewable energy sources, such as wind and solar, by providing a reliable and predictable energy supply, especially during periods of low wind and sunlight."
-          },
-          {
-            "title": "Regulatory and Policy Considerations",
-            "content": "The successful deployment of wave energy projects depends on supportive policies, streamlined regulatory processes, and financial incentives for renewable energy development."
-          },
-          {
-            "title": "Future Prospects and Advancements in Wave Energy",
-            "content": "Advancements in materials, design, and wave energy converter technology, as well as improvements in data collection and modeling, will play a vital role in the future growth and commercialization of wave energy."
-          }
-        ]
-      },
-      {
-        "title": "Biomass Energy",
-        "imageUrl": "/assets/sources/biomass.jpg",
-        "description": "Biomass energy is produced from organic materials like plant matter, agricultural residues, wood pellets, and organic waste. These materials can be burned directly or converted into biofuels like biogas, bioethanol, and biodiesel. Biomass energy is considered renewable because plants and organic materials can be regrown or replenished. It is often used for heat and electricity generation and as a sustainable alternative to fossil fuels.",
-        "sections": [
-          {
-            "title": "Introduction to Biomass Energy",
-            "content": "Biomass energy is derived from organic matter and is one of the earliest sources of energy used by humans. Biomass is considered renewable because plants absorb carbon dioxide during growth, offsetting the carbon emissions released when the biomass is burned."
-          },   {
-            "title": "Biomass Feedstocks and Conversion Processes",
-            "content": "Various feedstocks are used to produce biomass energy, including wood, agricultural residues, energy crops, and organic waste. Biomass can be converted into energy through direct combustion, anaerobic digestion, gasification, and bio-refining processes."
-          },
-          {
-            "title": "Biomass Combustion for Heat and Power",
-            "content": "Direct combustion of biomass is a common method of producing heat and electricity. Biomass power plants and biomass stoves/boilers are used for this purpose, providing renewable energy for residential, commercial, and industrial applications."
-          },
-          {
-            "title": "Biogas Production from Organic Waste",
-            "content": "Biogas is produced through anaerobic digestion of organic waste, such as agricultural residues, food scraps, and animal manure. It can be used for electricity generation, heating, and as a vehicle fuel."
-          },
-          {
-            "title": "Bioethanol and Biodiesel as Transportation Fuels",
-            "content": "Bioethanol, derived from fermenting sugars and starches in crops like corn and sugarcane, is used as a gasoline additive or blended with gasoline for transportation. Biodiesel, made from vegetable oils or animal fats, is used as a diesel fuel alternative."
-          },
-          {
-            "title": "Environmental Benefits of Biomass Energy",
-            "content": "Biomass energy can help reduce greenhouse gas emissions and dependence on fossil fuels, contributing to climate change mitigation and energy security. It also offers waste management benefits by converting organic waste into useful energy."
-          },
-          {
-            "title": "Challenges and Sustainability of Biomass Energy",
-            "content": "While biomass energy is renewable, its sustainability depends on responsible sourcing and management of biomass feedstocks. Competing uses of biomass, such as food versus fuel, must also be considered."
-          },
-          {
-            "title": "Biomass Energy in Co-firing and Combined Heat and Power (CHP)",
-            "content": "Co-firing biomass with coal in power plants and using biomass in combined heat and power systems can increase the overall efficiency of energy production and reduce greenhouse gas emissions."
-          },
-          {
-            "title": "Biomass Energy Policies and Incentives",
-            "content": "Government policies and incentives, such as feed-in tariffs, renewable portfolio standards, and tax credits, can encourage the growth of biomass energy projects and stimulate investment in the sector."
-          },
-          {
-            "title": "Research and Advancements in Biomass Energy",
-            "content": "Research efforts are ongoing to improve biomass conversion technologies, develop advanced biofuels, and explore the use of algae and other non-food feedstocks to enhance the sustainability of biomass energy."
-          }
-        ]  
-      }
-    ]
-  }
-    
-  
+      ]
+    },
+    {
+      "title": "Hydropower",
+      "imageUrl": "/assets/sources/hydropower.jpg",
+      "description": "Hydropower, also known as hydroelectric power, is derived from the energy of flowing or falling water. It is one of the oldest renewable energy sources used to generate electricity. Hydropower plants use dams and reservoirs to store water, and as water is released from higher levels to lower levels, it spins turbines, which, in turn, produce electricity. Hydropower is a reliable and eco-friendly energy source with low greenhouse gas emissions.",
+      "sections": [
+        {
+          "title": "Introduction to Hydropower",
+          "content": "Hydropower is a renewable energy source that harnesses the gravitational potential energy of water to produce electricity. It has been used for centuries, and modern hydropower plants play a significant role in global electricity generation."
+        },
+        {
+          "title": "Types of Hydropower Plants and Technologies",
+          "content": "Hydropower plants can be classified into different types based on their design and operation, such as conventional hydropower, pumped storage hydropower, and run-of-river hydropower."
+        },
+        {
+          "title": "Pros and Cons of Hydropower Energy",
+          "content": "Hydropower offers several advantages, including its ability to produce large amounts of electricity, provide flood control, and serve as a reliable baseload power source. However, concerns related to environmental impact, habitat disruption, and social implications must be considered."
+        },
+        {
+          "title": "Environmental Impact and Fish Migration",
+          "content": "Hydropower projects can impact aquatic ecosystems and fish migration patterns. Fish passages and other mitigation measures are implemented to reduce the impact on fish populations."
+        },
+        {
+          "title": "Pumped Storage Hydropower for Energy Storage",
+          "content": "Pumped storage hydropower is a form of energy storage that involves pumping water to an elevated reservoir during periods of low electricity demand and releasing it to generate electricity during peak demand."
+        },
+        {
+          "title": "Run-of-River and Small-Scale Hydropower Projects",
+          "content": "Run-of-river hydropower plants operate without large reservoirs, and small-scale hydropower projects can be implemented in remote areas to provide clean energy to local communities."
+        },
+        {
+          "title": "Hydropower and Water Management",
+          "content": "Hydropower projects play a role in water resource management, providing benefits such as flood control, irrigation, and water supply for various purposes."
+        },
+        {
+          "title": "Global Distribution and Contribution of Hydropower",
+          "content": "Hydropower is one of the largest sources of renewable electricity worldwide. Several countries heavily rely on hydropower for their electricity needs."
+        },
+        {
+          "title": "Challenges and Future Developments in Hydropower",
+          "content": "Despite its benefits, hydropower faces challenges such as environmental concerns, aging infrastructure, and potential impacts of climate change. Advances in technology and policies can address these challenges and enhance the sustainability of hydropower."
+        }
+      ]
+    },
+    {
+      "title": "Geothermal Energy",
+      "imageUrl": "/assets/sources/geothermal.jpg",
+      "description": "Geothermal energy is obtained from the heat generated within the Earth's crust. It involves harnessing hot water and steam from geothermal reservoirs underground to produce electricity through geothermal power plants. Geothermal energy is a reliable and sustainable energy source, as it produces minimal greenhouse gas emissions and has a small land footprint compared to other renewable energy sources.",
+      "sections": [
+        {
+          "title": "Introduction to Geothermal Energy",
+          "content": "Geothermal energy is a renewable energy source that harnesses the heat from within the Earth's crust. It is generated by natural processes and human-induced methods like Enhanced Geothermal Systems (EGS)."
+        },
+        {
+          "title": "Types of Geothermal Resources and Technologies",
+          "content": "Geothermal energy can be accessed through various types of resources, such as hydrothermal reservoirs, geopressured reservoirs, and hot dry rock. Geothermal power plants are designed based on the specific geothermal resource."
+        },
+        {
+          "title": "Geothermal Power Generation and Plant Types",
+          "content": "Geothermal power plants are classified into different types based on their design and technology, including dry steam, flash steam, and binary cycle plants. Each type utilizes different geothermal resources and operational methods."
+        },
+        {
+          "title": "Benefits and Advantages of Geothermal Energy",
+          "content": "Geothermal energy offers several advantages, including its sustainability, low carbon footprint, and continuous availability. Geothermal power plants have high capacity factors and provide reliable baseload electricity."
+        },
+        {
+          "title": "Geothermal Energy for Direct Use Applications",
+          "content": "In addition to electricity generation, geothermal energy is used directly for various applications, such as heating buildings, greenhouses, and spas, as well as for industrial processes like food drying and aquaculture."
+        },
+        {
+          "title": "Environmental Considerations and Emission Reduction",
+          "content": "Geothermal energy has minimal environmental impact compared to fossil fuel-based power generation. Its use can contribute to reducing greenhouse gas emissions and mitigating climate change."
+        },
+        {
+          "title": "Geothermal Energy Exploration and Resource Assessment",
+          "content": "The exploration and assessment of geothermal resources involve geophysical surveys, drilling, and testing to determine the potential for commercial-scale geothermal power production."
+        },
+        {
+          "title": "Geothermal Energy and Regional Development",
+          "content": "Geothermal energy can foster regional development and energy independence, particularly in areas with significant geothermal resources. It can create jobs and stimulate local economies."
+        },
+        {
+          "title": "Global Outlook and Challenges in Geothermal Energy",
+          "content": "Geothermal energy has enormous untapped potential worldwide. However, challenges such as resource availability, high upfront costs, and subsurface risks need to be addressed to further its adoption."
+        },
+        {
+          "title": "Innovations and Future Prospects for Geothermal Energy",
+          "content": "Ongoing research and technological advancements are exploring enhanced geothermal systems, co-production with oil and gas, and hybrid applications to unlock additional opportunities for geothermal energy."
+        }
+      ]
+    },
+    {
+      "title": "Wave Energy",
+      "imageUrl": "./assets/sources/wave.jpg",
+      "description": "Wave energy is derived from the motion of ocean waves. Devices known as wave energy converters (WECs) capture the kinetic energy of the waves and convert it into electricity. Wave energy has enormous potential as a renewable resource due to the vast energy available in oceans worldwide. However, the technology is still in its early stages of development.",
+      "sections": [
+        {
+          "title": "Introduction to Wave Energy",
+          "content": "Wave energy is a form of renewable energy that comes from the movement of ocean waves. It is a promising technology with the potential to provide a significant amount of clean electricity."
+        },
+        {
+          "title": "Wave Energy Conversion Technologies",
+          "content": "Various wave energy conversion technologies are under development, including point absorbers, oscillating water columns, attenuators, and overtopping devices. Each technology aims to capture wave energy and convert it into usable electricity."
+        },
+        {
+          "title": "Challenges in Harnessing Wave Energy",
+          "content": "Wave energy faces several challenges, including the harsh marine environment, the variability of wave patterns, and the high costs associated with developing and deploying wave energy devices."
+        },
+        {
+          "title": "Environmental Impact and Marine Life",
+          "content": "Wave energy projects should consider potential environmental impacts, such as noise pollution and the alteration of coastal ecosystems. Proper environmental assessments and monitoring are essential in mitigating adverse effects."
+        },
+        {
+          "title": "Wave Energy Projects and Demonstrations",
+          "content": "Wave energy devices are being tested and demonstrated in various locations worldwide to assess their technical performance and commercial viability. Pilot projects are crucial in advancing the state of wave energy technology."
+        },
+        {
+          "title": "Wave Energy Potential and Global Distribution",
+          "content": "The global potential for wave energy is significant, especially in regions with strong and consistent wave patterns, such as coastal areas with high wind exposure and open-ocean sites."
+        },
+        {
+          "title": "Integration of Wave Energy into the Grid",
+          "content": "Wave energy integration into the electricity grid requires careful planning and coordination. Energy storage systems and smart grid technologies can enhance the reliability and stability of wave energy systems."
+        },
+        {
+          "title": "Wave Energy and Renewable Energy Mix",
+          "content": "Wave energy has the potential to complement other renewable energy sources, such as wind and solar, by providing a reliable and predictable energy supply, especially during periods of low wind and sunlight."
+        },
+        {
+          "title": "Regulatory and Policy Considerations",
+          "content": "The successful deployment of wave energy projects depends on supportive policies, streamlined regulatory processes, and financial incentives for renewable energy development."
+        },
+        {
+          "title": "Future Prospects and Advancements in Wave Energy",
+          "content": "Advancements in materials, design, and wave energy converter technology, as well as improvements in data collection and modeling, will play a vital role in the future growth and commercialization of wave energy."
+        }
+      ]
+    },
+    {
+      "title": "Biomass Energy",
+      "imageUrl": "/assets/sources/biomass.jpg",
+      "description": "Biomass energy is produced from organic materials like plant matter, agricultural residues, wood pellets, and organic waste. These materials can be burned directly or converted into biofuels like biogas, bioethanol, and biodiesel. Biomass energy is considered renewable because plants and organic materials can be regrown or replenished. It is often used for heat and electricity generation and as a sustainable alternative to fossil fuels.",
+      "sections": [
+        {
+          "title": "Introduction to Biomass Energy",
+          "content": "Biomass energy is derived from organic matter and is one of the earliest sources of energy used by humans. Biomass is considered renewable because plants absorb carbon dioxide during growth, offsetting the carbon emissions released when the biomass is burned."
+        },
+        {
+          "title": "Biomass Feedstocks and Conversion Processes",
+          "content": "Various feedstocks are used to produce biomass energy, including wood, agricultural residues, energy crops, and organic waste. Biomass can be converted into energy through direct combustion, anaerobic digestion, gasification, and bio-refining processes."
+        },
+        {
+          "title": "Biomass Combustion for Heat and Power",
+          "content": "Direct combustion of biomass is a common method of producing heat and electricity. Biomass power plants and biomass stoves/boilers are used for this purpose, providing renewable energy for residential, commercial, and industrial applications."
+        },
+        {
+          "title": "Biogas Production from Organic Waste",
+          "content": "Biogas is produced through anaerobic digestion of organic waste, such as agricultural residues, food scraps, and animal manure. It can be used for electricity generation, heating, and as a vehicle fuel."
+        },
+        {
+          "title": "Bioethanol and Biodiesel as Transportation Fuels",
+          "content": "Bioethanol, derived from fermenting sugars and starches in crops like corn and sugarcane, is used as a gasoline additive or blended with gasoline for transportation. Biodiesel, made from vegetable oils or animal fats, is used as a diesel fuel alternative."
+        },
+        {
+          "title": "Environmental Benefits of Biomass Energy",
+          "content": "Biomass energy can help reduce greenhouse gas emissions and dependence on fossil fuels, contributing to climate change mitigation and energy security. It also offers waste management benefits by converting organic waste into useful energy."
+        },
+        {
+          "title": "Challenges and Sustainability of Biomass Energy",
+          "content": "While biomass energy is renewable, its sustainability depends on responsible sourcing and management of biomass feedstocks. Competing uses of biomass, such as food versus fuel, must also be considered."
+        },
+        {
+          "title": "Biomass Energy in Co-firing and Combined Heat and Power (CHP)",
+          "content": "Co-firing biomass with coal in power plants and using biomass in combined heat and power systems can increase the overall efficiency of energy production and reduce greenhouse gas emissions."
+        },
+        {
+          "title": "Biomass Energy Policies and Incentives",
+          "content": "Government policies and incentives, such as feed-in tariffs, renewable portfolio standards, and tax credits, can encourage the growth of biomass energy projects and stimulate investment in the sector."
+        },
+        {
+          "title": "Research and Advancements in Biomass Energy",
+          "content": "Research efforts are ongoing to improve biomass conversion technologies, develop advanced biofuels, and explore the use of algae and other non-food feedstocks to enhance the sustainability of biomass energy."
+        }
+      ]
+    }
+  ],
+  "policies":[
+    {
+      "title":"Subsidies for RE doubled in FY 22, the first increase since FY 17, driven by a 155% jump in the installation of solar photovoltaic (PV)",
+      "imageUrl":"./assets/policies/1.jpg",
+      "description":"In FY 22, we identified 28 Central Government policies subsidizing renewable energy, totalling INR 11,529 crore (USD 1.5 billion). This includes a one-time capital infusion to the Indian Renewable Energy Development Agency (IREDA) and the Solar Energy Corporation of India (SECI) amounting to INR 2,500 crore (USD 0.3 billion) to increase their operations in the renewable sector.Subsidies to renewables peaked in FY 17 at 41% above FY 22 levels (INR 16,312 crore, or USD 2.2 billion) but fell in response to policy uncertainty. This uncertainty was due to the ending of the first tranche of subsidies under the Jawaharlal Nehru National Solar Mission (national program);",
+      "newsUrl":"https://www.iisd.org/story/mapping-india-energy-policy-2022-update"
+    },
+    {
+      "title":"Subsidies for EVs increased 160% from FY 21, reaching a record high of INR 2,358 crore (USD 0.3 billion) in FY 22.",
+      "imageUrl":"./assets/policies/2.jpg",
+      "description":"The post-COVID-19 economic resurgence was evident in the increased uptake of EVs, and an associated uptick in EV subsidies. In 2021, electric vehicles (EVs) accounted for 1.1% of total vehicle sales but this share is expected to reach 39% by 2027. Around 95% of EVs registered in 2021 were two- and three-wheelers.The main EV subsidy program is the Faster Adoption and Manufacturing of (Hybrid and) Electric Vehicles scheme, which paid out a record high (for the program) of INR 800 crore (USD 0.1 billion) in FY 22. But the majority of the program’s INR 10,000 crore (USD 1.3 billion) funds allocated in FY 20 were unspent by end FY 22 and the program has been extended to FY 24, using existing funds. Other major EV subsidies were GST concessions on vehicle sales.",
+      "newsUrl":"https://www.iisd.org/story/mapping-india-energy-policy-2022-update"
+    },
+    {
+      "title":"Despite the positive news on clean energy support, subsidies for fossil fuels remained over four times higher than subsidies for clean energy in FY 22.",
+      "imageUrl":"./assets/policies/3.jpg",
+      "description":"Subsidies for coal, fossil gas, and oil totalled INR 60,316 crore (USD 8.1 billion) and have fallen by 76% between FY 14-FY 22 in real terms. But they remain more than four times the subsidies for renewables and EVs at INR 13,887 crore (USD 1.9 billion). Continued support for fossil fuels is out of step with India’s energy access, energy security, and climate change objectives.",
+      "newsUrl":"https://www.iisd.org/story/mapping-india-energy-policy-2022-update"
+    },
+    {
+      "title":"Oil and gas subsidies fell by 28% in FY 22—but this does not account for foregone revenue from cuts in excise and VAT on fuel.",
+      "imageUrl":"./assets/policies/4.jpg",
+      "description":"Subsidies to oil and gas in FY 22 were substantial, totalling INR 44,383 crore (USD 5.9 billion), primarily subsidies to domestic liquefied petroleum gas (LPG): preferential GST rates and losses by India’s state-owned oil marketing companies (OMCs) due to fixed LPG pricing. The Center committed to reimbursing OMCs for their losses on sales of domestic LPG between June 2020 and June 2022, with a bailout of INR 22,000 crore (USD 3 billion). While LPG subsidies were sizable in FY 22, they were lower than those provided in FY 21. Total oil and gas subsidies fell from FY 21 to FY 22 due to a reduction in funding for two consumer LPG programs: the Direct Benefit Transfer-LPG (DBTL, also known as Pratyaksh Hanstantrit Labh, PAHAL) and the Ujjwala (LPG connections for the poor) schemes.",
+      "newsUrl":"https://www.iisd.org/story/mapping-india-energy-policy-2022-update"
+    },
+    {
+      "title":"Coal subsidies increased 15% and domestic coal prices remain unchanged for a fourth year in a row.",
+      "imageUrl":"./assets/policies/5.jpg",
+      "description":"Government subsidies for coal amounted to INR 15,933 in FY 22 (USD 2.1 billion), largely due to GST concessions on coal sales. Coal subsidies remained relatively unchanged from FY 18 to FY 22. However, the prices set in consultation with the Central Government for domestically produced coal have not been raised in 4 years, despite rising international coal prices and input costs, such as diesel. Coal India Limited, which mines over 80% of domestic coal, has sought to raise coal prices, but government shareholders were reluctant to do so during a period of high inflation. Meanwhile, spot market prices were 150% above regulated prices. This has capped input costs for thermal power generation, but we were unable to quantify this price support.",
+      "newsUrl":"https://www.iisd.org/story/mapping-india-energy-policy-2022-update"
+    },
+    {
+      "title":"Electricity subsidies remain very large at INR 151,500 crore (USD 20.3 billion), dwarfing all other subsidy categories.",
+      "imageUrl":"./assets/policies/6.jpg",
+      "description":"The largest subsidy for electricity transmission and distribution (T&D) was below-cost electricity pricing to support consumers, funded through state government subsidies to power distribution companies (DISCOMs: for more detail see Unpacking India’s Electricity Subsidies). T&D subsidies remained about the same as FY 22 and consistent with the FY 17 to FY 22 average of INR 131,000 crore (USD 17.6 billion) per year. This indicates that, despite schemes to reform subsidies, progress has been slow.  ",
+      "newsUrl":"https://www.iisd.org/story/mapping-india-energy-policy-2022-update"
+    }
+  ]
+}

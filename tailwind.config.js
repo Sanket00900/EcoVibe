@@ -124,8 +124,13 @@ export default {
       poppins: ["Poppins", "sans-serif"],
     },
     extend: {
+      backgroundImage: {
+        "hero-bg": "url('../assets/bg/hero-bg.jpg')",
+      },
       spacing: {
         72: "18rem",
+        100: "25rem",
+        112: "28rem",
         128: "32rem",
         144: "36rem",
         156: "40rem",
