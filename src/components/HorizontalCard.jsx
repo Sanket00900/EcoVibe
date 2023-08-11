@@ -15,7 +15,7 @@ const HorizontalCard = ({ title, newsUrl, description, imageUrl }) => {
             src={imageUrl}
             alt=""
           />
-          <div className="flex flex-col justify-between p-4 leading-normal">
+          <div className="flex flex-col justify-center p-4 leading-normal">
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               {title}
             </h5>
