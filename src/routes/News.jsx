@@ -27,28 +27,34 @@ const News = () => {
 
     fetchNews();
   }, []);
-  console.log(news);
 
   return (
     <>
-      <div className="bg-bg">
-        <Navbar />
-        <div>
-          <h2 className="text-2xl text-blue-300 uppercase m-3 text-center">
-            Stay Updated with Latest Renewable Energy News
-          </h2>
-          <div className="flex flex-col items-center">
-            {news.map((article, index) => (
-              <HorizontalCard
-                key={article.index}
-                title={article.title}
-                imageUrl={article.image}
-                description={article.content}
-              />
-            ))}
+      <CSSTransition
+        in={showAnimation}
+        timeout={1000}
+        classNames="zoom-in"
+        onEntered={() => setShowAnimation(false)}
+      >
+        <div className="bg-bg">
+          <Navbar />
+          <div>
+            <h2 className="text-2xl text-blue-300 uppercase m-3 text-center">
+              Stay Updated with Latest Renewable Energy News
+            </h2>
+            <div className="flex flex-col items-center">
+              {news.map((article) => (
+                <HorizontalCard
+                  key={article.title}
+                  title={article.title}
+                  imageUrl={article.image}
+                  description={article.content}
+                />
+              ))}
+            </div>
           </div>
         </div>
-      </div>
+      </CSSTransition>
     </>
   );
 };
